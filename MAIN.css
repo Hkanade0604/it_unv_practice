@@ -1,0 +1,48 @@
+.full-img {
+    background-image: url("kanademain.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+  }
+
+  .moji {
+    position:absolute;
+ color: hsl(0, 0%, 100%);
+ background: rgba(142, 142, 142, 0.167);
+ width: 1890px;
+  }
+
+  .container {
+ animation: fadein 5s ease-out forwards;
+  }
+
+  @keyframes fadein {
+    0%{
+      opacity:0
+    }
+    100%{
+      opacity:1
+    }
+  }
+
+  a.btn_10 {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	width: 60px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #27acd9 0%, #b4e12b 100%);
+	border-radius: 100vh;
+	color: #fff;
+	border: 2px solid #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: 0.5s;
+}
+a.btn_10:hover {
+	color: #fff;
+	background-image: linear-gradient(to left, #27acd9 0%, #b4e12b 100%);
+}
